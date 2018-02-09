@@ -9,6 +9,7 @@ for epoc = 1:200
     alpha = 1/(epoc^0.5);
     %alpha = 0.5;
     training
+    disp('new epoch : ' ,num2str(epoc))
 end
 
 Accuracy

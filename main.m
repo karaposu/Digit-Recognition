@@ -6,10 +6,13 @@ initilization
 
 % Calling Training.m Script
 for epoc = 1:200
+    msg=['new epoch number : ',num2str(epoc)];    msg2=['training continues...'];
+    disp(msg)
+    disp(msg2)
     alpha = 1/(epoc^0.5);
     %alpha = 0.5;
     training
-    disp('new epoch : ' ,num2str(epoc))
+  
 end
 
 Accuracy
